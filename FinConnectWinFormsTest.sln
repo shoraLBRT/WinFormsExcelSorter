@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinConnectWinFormsTest", "FinConnectWinFormsTest.csproj", "{CCE7E56E-FC2C-45C9-8AB6-EDAEDC7E2C40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCE7E56E-FC2C-45C9-8AB6-EDAEDC7E2C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE7E56E-FC2C-45C9-8AB6-EDAEDC7E2C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE7E56E-FC2C-45C9-8AB6-EDAEDC7E2C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE7E56E-FC2C-45C9-8AB6-EDAEDC7E2C40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4A64F77-D76A-41EE-9B1B-B8E67AF1F3E3}
+	EndGlobalSection
+EndGlobal
