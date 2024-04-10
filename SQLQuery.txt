@@ -1,0 +1,16 @@
+﻿Вывод марки авто с максимальным количеством моделей
+
+SELECT am.Name, COUNT(amm.Name) as ModelCount
+FROM AutoMarks am
+JOIN AutoModels amm ON am.id = amm.MarkId
+GROUP BY am.Name
+ORDER BY ModelCount DESC
+LIMIT 1;
+
+Вывод наименования категории марки Citroen C5
+
+SELECT ac.Name
+FROM AutoCategories ac
+JOIN AutoMarks am ON ac.id = am.CategoryId
+JOIN AutoModels amm ON am.id = amm.MarkId
+WHERE am.Name = 'CITROEN' AND amm.Name = 'C5';
